@@ -43,3 +43,4 @@ switch (myChoice) {
     default:
         console.log("1에서 4 사이의 숫자를 선택해 주세요.");
 } //switch문은 break를 만나기전까지 작동하므로 break를 제거하면 밑에 모든 문이 다 나온다
+// 범위를 만족하는 조건식을 만들 때는 if문을 활용하는 것이 효과적, 특정값을 만족하는 조건식을 만들 때는 switch문이 효과적

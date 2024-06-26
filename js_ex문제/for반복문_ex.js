@@ -12,20 +12,20 @@
 
 
 //3. for반복문 * 을 만들기
-function printTriangle(height) {
-    for (let i = 0; i < height; i++) {
-      console.log('*');
-    }
-  }
+// function printTriangle(height) {
+//     for (let i = 0; i < height; i++) {
+//       console.log('*');
+//     }
+//   }
 
-  console.log('높이: 1');
-printTriangle(1);
+//   console.log('높이: 1');
+// printTriangle(1);
 
-console.log('높이: 3');
-printTriangle(3);
+// console.log('높이: 3');
+// printTriangle(3);
 
-console.log('높이: 5');
-printTriangle(5);
+// console.log('높이: 5');
+// printTriangle(5);
 
 
 function printTriangle(height) {
@@ -47,3 +47,23 @@ printTriangle(3);
 
 console.log('높이: 5');
 printTriangle(5);
+
+
+function printTriangle(height) {
+    let message = '';
+    for (let i = 0; i < height; i++) {
+      message += '*';
+      console.log(message);
+    }
+  }
+  
+  // 테스트 코드
+  console.log('높이: 1');
+  printTriangle(1);
+  
+  console.log('높이: 3');
+  printTriangle(3);
+  
+  console.log('높이: 5');
+  printTriangle(5);
+  
